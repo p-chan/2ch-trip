@@ -1,7 +1,7 @@
 {
   "name": "2ch-trip",
   "version": "1.0.0",
-  "description": "Generate 2ch trip from trip key.",
+  "description": "Generator for unique signature like as 2ch.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
