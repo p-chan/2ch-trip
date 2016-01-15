@@ -1,6 +1,6 @@
 {
   "name": "2ch-trip",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generator for unique signature like as 2ch.",
   "main": "index.js",
   "scripts": {
