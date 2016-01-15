@@ -1,0 +1,11 @@
+{
+  "name": "2ch-trip",
+  "version": "1.0.0",
+  "description": "Generate 2ch trip from trip key.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "p1ch_jp",
+  "license": "MIT"
+}
