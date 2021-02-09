@@ -1,12 +1,15 @@
 # 2ch-trip
+
 Generator for unique signature like as 2ch.
 
 ## Install
+
 ```
 $ npm install 2ch-trip
 ```
 
 ## Usage
+
 ```
 var genTrip = require('2ch-trip');
 var trip = '';
@@ -25,7 +28,8 @@ console.log(trip); // ◆Rin/SM.o.6
 ```
 
 ## Library
-- [2chトリップテスター（12桁・生キー対応）](http://jsdo.it/tdn/trip)
+
+- [2ch トリップテスター（12 桁・生キー対応）](http://jsdo.it/tdn/trip)
 - [base64.js](http://user1.matsumoto.ne.jp/~goma/js/base64.js)
 - [ecl.js](http://nurucom-archives.hp.infoseek.co.jp/digital/)
 - [des.js](http://user1.matsumoto.ne.jp/~goma/js/des.js)
@@ -33,7 +37,9 @@ console.log(trip); // ◆Rin/SM.o.6
 - [tr.js](http://blog.livedoor.jp/dankogai/js/tr.js)
 
 ## Author
+
 [@p1ch_jp](https://twitter.com/p1ch_jp)
 
 ## License
+
 MIT
