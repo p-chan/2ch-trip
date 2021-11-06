@@ -22,7 +22,7 @@
   "scripts": {
     "build": "tsc",
     "format": "prettier --write .",
-    "test": "jest",
+    "test": "tsc --noEmit && jest",
     "version:major": "standard-version -r major",
     "version:minor": "standard-version -r minor",
     "version:patch": "standard-version -r patch"
