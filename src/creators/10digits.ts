@@ -15,7 +15,7 @@ export const create10DigitsTrip = (key: string) => {
     .replace(/[^\.-z]/g, '.')
     // 配列にする
     .split('')
-    // salt として使えない 記号をアルファベットに置換する
+    // salt として使えない記号をアルファベットに置換する
     .map((string) => {
       if (string === ':') return 'A'
       if (string === ';') return 'B'
