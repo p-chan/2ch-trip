@@ -1,45 +1,41 @@
 # 2ch-trip
 
-Generator for unique signature like as 2ch.
+> 2ch like trip generator
 
 ## Install
 
+```sh
+npm install 2ch-trip
 ```
-$ npm install 2ch-trip
+
+or
+
+```sh
+yarn add 2ch-trip
 ```
 
 ## Usage
 
+```ts
+import { createTrip } from '2ch-trip'
+
+// 10 digits trip
+createTrip('Jim') // -> ziib4d/boU
+createTrip('ひろゆき') // -> F7aSjnRHGU
+
+// 12 digits trip
+createTrip('N.T.Technology') // -> FG0WWassNUrw
+createTrip('パケットモンスター') // -> EZSPRAHOnqfS
+
+// Raw key trip
+createTrip('#57414b5554454b41') // -> sWERuZlbhs
+createTrip('#4f4d41454d4f4e412d') // -> DUGqJ4796k
 ```
-var genTrip = require('2ch-trip');
-var trip = '';
-
-// 10 digit trip
-trip = genTrip('#github');
-console.log(trip); // ◆lLf/rxkwgg
-
-// 12 digit trip
-trip = genTrip('#github-octcat');
-console.log(trip); // ◆8JhbOfVQsqBv
-
-// Raw key
-trip = genTrip('##A49DD9649F6425CB');
-console.log(trip); // ◆Rin/SM.o.6
-```
-
-## Library
-
-- [2ch トリップテスター（12 桁・生キー対応）](http://jsdo.it/tdn/trip)
-- [base64.js](http://user1.matsumoto.ne.jp/~goma/js/base64.js)
-- [ecl.js](http://nurucom-archives.hp.infoseek.co.jp/digital/)
-- [des.js](http://user1.matsumoto.ne.jp/~goma/js/des.js)
-- [sha1.js](http://user1.matsumoto.ne.jp/~goma/js/sha1.js)
-- [tr.js](http://blog.livedoor.jp/dankogai/js/tr.js)
 
 ## Author
 
-[@p1ch_jp](https://twitter.com/p1ch_jp)
+[@p-chan](https://github.com/p-chan)
 
-## License
+## LICENSE
 
 MIT
