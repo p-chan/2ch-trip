@@ -13,6 +13,9 @@
   },
   "license": "MIT",
   "author": "P-Chan",
+  "files": [
+    "dist"
+  ],
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "repository": {
