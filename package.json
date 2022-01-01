@@ -45,7 +45,7 @@
     "@stardust-configs/tsconfig": "0.2.0",
     "@types/encoding-japanese": "1.0.18",
     "@types/jest": "27.0.3",
-    "@types/node": "16.11.11",
+    "@types/node": "16.11.17",
     "babel-jest": "27.4.2",
     "jest": "27.4.2",
     "prettier": "2.5.0",
