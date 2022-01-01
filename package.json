@@ -38,9 +38,9 @@
     "unix-crypt-td-js": "1.1.4"
   },
   "devDependencies": {
-    "@babel/core": "7.16.0",
-    "@babel/preset-env": "7.16.4",
-    "@babel/preset-typescript": "7.16.0",
+    "@babel/core": "7.16.7",
+    "@babel/preset-env": "7.16.7",
+    "@babel/preset-typescript": "7.16.7",
     "@stardust-configs/prettier-config": "0.1.1",
     "@stardust-configs/tsconfig": "0.2.0",
     "@types/encoding-japanese": "1.0.18",
