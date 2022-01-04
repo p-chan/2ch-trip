@@ -8,6 +8,7 @@ const trips = {
   '12Digits': [
     { key: 'N.T.Technology', trip: 'FG0WWassNUrw' },
     { key: 'パケットモンスター', trip: 'EZSPRAHOnqfS' },
+    { key: 'ドットが入るトリ', trip: 'n2HxTwBby.Ar' },
   ],
   raw: [
     { key: '#57414b5554454b41', trip: 'sWERuZlbhs' },
