@@ -4,7 +4,9 @@
   "description": "2ch compatible trip generator",
   "keywords": [
     "2ch",
-    "trip"
+    "5ch",
+    "trip",
+    "tripcode"
   ],
   "homepage": "https://github.com/p-chan/2ch-trip#readme",
   "bugs": {
