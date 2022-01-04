@@ -1,6 +1,6 @@
 # 2ch-trip
 
-> 2ch like trip generator
+> 2ch compatible trip generator
 
 ## Install
 

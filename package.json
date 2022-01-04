@@ -1,7 +1,7 @@
 {
   "name": "2ch-trip",
   "version": "2.0.1",
-  "description": "2ch like trip generator",
+  "description": "2ch compatible trip generator",
   "keywords": [
     "2ch",
     "trip"
