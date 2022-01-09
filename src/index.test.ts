@@ -1,42 +1,47 @@
 import { createTrip } from './index'
 
-const trips = {
-  '10Digits': [
-    { key: 'Jim', trip: 'ziib4d/boU' },
-    { key: 'ひろゆき', trip: 'F7aSjnRHGU' },
-  ],
-  '12Digits': [
-    { key: 'N.T.Technology', trip: 'FG0WWassNUrw' },
-    { key: 'パケットモンスター', trip: 'EZSPRAHOnqfS' },
-    { key: 'ドットが入るトリ', trip: 'n2HxTwBby.Ar' },
-  ],
-  raw: [
-    { key: '#57414b5554454b41', trip: 'sWERuZlbhs' },
-    { key: '#4f4d41454d4f4e412d', trip: 'DUGqJ4796k' },
-    { key: '$4d45534849554d41', trip: '???' },
-  ],
-}
-
 describe('10 Digits', () => {
-  trips['10Digits'].forEach(({ key, trip }) => {
-    test(`${key} -> ${trip}`, () => {
-      expect(createTrip(key)).toBe(trip)
-    })
+  test('The trip key include only singlebyte characters', () => {
+    expect(createTrip('#Jim')).toBe(' ◆ziib4d/boU')
+  })
+
+  test('The trip key include only multibyte characters', () => {
+    expect(createTrip('#ひろゆき')).toBe(' ◆F7aSjnRHGU')
   })
 })
 
 describe('12 Digits', () => {
-  trips['12Digits'].forEach(({ key, trip }) => {
-    test(`${key} -> ${trip}`, () => {
-      expect(createTrip(key)).toBe(trip)
-    })
+  test('The trip key include only singlebyte characters', () => {
+    expect(createTrip('#N.T.Technology')).toBe(' ◆FG0WWassNUrw')
+  })
+
+  test('The trip key include only multibyte characters', () => {
+    expect(createTrip('#パケットモンスター')).toBe(' ◆EZSPRAHOnqfS')
+  })
+
+  test('The trip include dot', () => {
+    expect(createTrip('#ドットが入るトリ')).toBe(' ◆n2HxTwBby.Ar')
   })
 })
 
 describe('Raw', () => {
-  trips.raw.forEach(({ key, trip }) => {
-    test(`${key} -> ${trip}`, () => {
-      expect(createTrip(key)).toBe(trip)
-    })
+  test('The trip key include only hexadecimal', () => {
+    expect(createTrip('##57414b5554454b41')).toBe(' ◆sWERuZlbhs')
+  })
+
+  test('The trip for the future expansion', () => {
+    expect(createTrip('#$4d45534849554d41')).toBe(' ◆???')
+  })
+})
+
+describe('No trip', () => {
+  test('The trip key is not defined', () => {
+    expect(createTrip('名無しさん＠お腹いっぱい。')).toBe('名無しさん＠お腹いっぱい。')
+  })
+})
+
+describe('Options', () => {
+  test('Hide whitespace', () => {
+    expect(createTrip('#未来検索ブラジル', { hideWhitespace: true })).toBe('◆6hXUlBS0slkc')
   })
 })
