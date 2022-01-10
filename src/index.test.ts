@@ -34,6 +34,22 @@ describe('Raw', () => {
   })
 })
 
+describe('Sharps', () => {
+  test('The sharp is singlebyte string', () => {
+    expect(createTrip('#半角シャープ')).toBe(' ◆UfNdqf7SBKdu')
+  })
+
+  test('The sharp is multibyte string', () => {
+    expect(createTrip('＃全角シャープ')).toBe(' ◆WcKp0EJvexJP')
+  })
+})
+
+describe('Others', () => {
+  test('The trip key include whitespace', () => {
+    expect(createTrip('#ホワイト スペース')).toBe(' ◆7CqLoauBLfFu')
+  })
+})
+
 describe('No trip', () => {
   test('The trip key is not defined', () => {
     expect(createTrip('名無しさん＠お腹いっぱい。')).toBe('名無しさん＠お腹いっぱい。')
