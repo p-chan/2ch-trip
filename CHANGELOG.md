@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/p-chan/2ch-trip/compare/v2.0.2...v3.0.0) (2022-01-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* add text support
+
+### Features
+
+* add text support ([9c49f62](https://github.com/p-chan/2ch-trip/commit/9c49f6231ce566a5af770cf5c7ddf87cd2e60072))
+
 ### [2.0.2](https://github.com/p-chan/2ch-trip/compare/v2.0.1...v2.0.2) (2022-01-04)
 
 
