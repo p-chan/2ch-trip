@@ -30,7 +30,7 @@
     "format": "prettier --write .",
     "prebuild": "npm run clean",
     "prepublishOnly": "npm run build",
-    "test": "tsc --noEmit && jest",
+    "test": "tsc --noEmit && vitest",
     "version:major": "standard-version -r major",
     "version:minor": "standard-version -r minor",
     "version:patch": "standard-version -r patch"
@@ -53,6 +53,7 @@
     "prettier": "2.7.1",
     "rimraf": "3.0.2",
     "standard-version": "9.5.0",
-    "typescript": "4.8.2"
+    "typescript": "4.8.2",
+    "vitest": "0.24.3"
   }
 }

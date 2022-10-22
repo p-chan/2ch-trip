@@ -1,3 +1,4 @@
+import { describe, expect, test } from 'vitest'
 import { createTrip } from './index'
 
 describe('10 Digits', () => {
