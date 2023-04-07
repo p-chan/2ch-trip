@@ -11,7 +11,7 @@ const rawKeyPettern = /^#[0-9A-Fa-f]{16}[.\/0-9A-Za-z]{0,2}$/
 const maskSpecialSymbols = (text: string) => text.replace(/★/g, '☆').replace(/◆/g, '◇')
 
 export const createTripByKey = (key: string) => {
-  const encodedKeyString = convert(key, 'SJIS', 'UNICODE')
+  const encodedKeyString = convert(key, { from: 'UNICODE', to: 'SJIS', fallback: 'html-entity' })
 
   // 10 桁トリップ
   if (encodedKeyString.length < 12) return create10DigitsTrip(key)

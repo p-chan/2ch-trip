@@ -6,7 +6,7 @@ import crypt from 'unix-crypt-td-js'
  */
 export const create10DigitsTrip = (key: string) => {
   const saltSuffixString = 'H.'
-  const encodedKeyString = convert(key, 'SJIS', 'UNICODE')
+  const encodedKeyString = convert(key, { from: 'UNICODE', to: 'SJIS', fallback: 'html-entity' })
 
   const salt = `${encodedKeyString}${saltSuffixString}`
     // 1 文字目から 2 文字を取得する
