@@ -32,8 +32,6 @@ createTrip('##57414b5554454b41') // -> ' ◆sWERuZlbhs'
 createTrip('#$4d45534849554d41') // -> ' ◆???'
 ```
 
-:warning: Don't support string that cannot be converted to Shift_JIS (ex: Emoji)
-
 ## Author
 
 [@p-chan](https://github.com/p-chan)
