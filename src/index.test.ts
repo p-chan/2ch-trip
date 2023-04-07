@@ -6,8 +6,12 @@ describe('10 Digits', () => {
     expect(createTrip('#Jim')).toBe(' ◆ziib4d/boU')
   })
 
-  test('The trip key include only multibyte characters', () => {
+  test('The trip key include only multibyte characters (hiragana)', () => {
     expect(createTrip('#ひろゆき')).toBe(' ◆F7aSjnRHGU')
+  })
+
+  test('The trip key include only multibyte characters  (emoji)', () => {
+    expect(createTrip('#🇯🇵')).toBe(' ◆K9zUBOq4IzsD')
   })
 })
 
@@ -16,8 +20,12 @@ describe('12 Digits', () => {
     expect(createTrip('#N.T.Technology')).toBe(' ◆FG0WWassNUrw')
   })
 
-  test('The trip key include only multibyte characters', () => {
+  test('The trip key include only multibyte characters (hiragana)', () => {
     expect(createTrip('#パケットモンスター')).toBe(' ◆EZSPRAHOnqfS')
+  })
+
+  test('The trip key include only multibyte characters  (emoji)', () => {
+    expect(createTrip('#🇯🇵🇯🇵')).toBe(' ◆pD8dlc9B7Wif')
   })
 
   test('The trip include dot', () => {
