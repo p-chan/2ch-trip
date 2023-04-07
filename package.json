@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@stardust-configs/prettier-config": "0.1.1",
-    "@stardust-configs/tsconfig": "0.3.0",
+    "@stardust-configs/tsconfig": "0.4.0",
     "@types/encoding-japanese": "1.0.18",
     "@types/node": "18.15.11",
     "prettier": "2.8.7",

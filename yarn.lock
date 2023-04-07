@@ -143,10 +143,10 @@
   resolved "https://registry.yarnpkg.com/@stardust-configs/prettier-config/-/prettier-config-0.1.1.tgz#b79ee6bcd84c926501cd0f4e3b0f02f2bfb57415"
   integrity sha512-KVNeDikcETcc9IuK69kk66O01I/8TdtzY6T4RTcjoqPJtD1NLe/cQkWTTAY6vqXZ8blOwexkOLFv11pXrZTjRA==
 
-"@stardust-configs/tsconfig@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@stardust-configs/tsconfig/-/tsconfig-0.3.0.tgz#d2451926df68041d780c4dda6811eeee2be9b784"
-  integrity sha512-F7ZiYWZxiXbSIq3qPAKUkEyoAkQXkVoUROLwKZojWMTOplimKiumhNfXDCpg4dP2w2mOCYm8sAFPj43Q1CGc2g==
+"@stardust-configs/tsconfig@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@stardust-configs/tsconfig/-/tsconfig-0.4.0.tgz#c791f0da2d37d5f799916d87336f104b3d20db3e"
+  integrity sha512-yF8GUmcxATNIimDOwggtHlPqAQBsHCZgDIjquMkWPYemW1K3PEiwpMX1WMHhIAi+gXr2Fj05aP3AlO/q+yovRQ==
 
 "@types/chai-subset@^1.3.3":
   version "1.3.3"
