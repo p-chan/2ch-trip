@@ -27,7 +27,8 @@
   "scripts": {
     "build": "tsc",
     "clean": "rimraf ./dist",
-    "format": "prettier --write .",
+    "fix": "prettier --write .",
+    "lint": "prettier --check .",
     "prebuild": "npm run clean",
     "prepublishOnly": "npm run build",
     "test": "tsc --noEmit && vitest",
@@ -52,5 +53,10 @@
   },
   "engines": {
     "node": ">=14"
+  },
+  "standard-version": {
+    "scripts": {
+      "postchangelog": "prettier --write ./CHANGELOG.md"
+    }
   }
 }
