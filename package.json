@@ -53,5 +53,10 @@
   },
   "engines": {
     "node": ">=14"
+  },
+  "standard-version": {
+    "scripts": {
+      "postchangelog": "prettier --write ./CHANGELOG.md"
+    }
   }
 }
