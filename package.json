@@ -46,7 +46,7 @@
     "@types/encoding-japanese": "2.0.3",
     "@types/node": "18.17.12",
     "prettier": "3.0.3",
-    "rimraf": "5.0.1",
+    "rimraf": "5.0.5",
     "standard-version": "9.5.0",
     "typescript": "5.2.2",
     "vitest": "0.34.3"
