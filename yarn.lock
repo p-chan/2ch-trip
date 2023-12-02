@@ -172,10 +172,10 @@
   resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.27.8.tgz#6667fac16c436b5434a387a34dedb013198f6e6e"
   integrity sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==
 
-"@stardust-configs/prettier-config@0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@stardust-configs/prettier-config/-/prettier-config-0.2.0.tgz#f46af2f118ec5c2a39420364714433ef3613b3ae"
-  integrity sha512-ZtdNF3u7zRsYXv21pUdQyYXVX/pWd7PHsy6oGgFzHjyw4FjI96GuR4QYabECApNxyKU8APyb13mPVH7qRNx6tg==
+"@stardust-configs/prettier-config@0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@stardust-configs/prettier-config/-/prettier-config-0.3.0.tgz#8109c7ed0de4301ee544988a93212c8f0743c400"
+  integrity sha512-pixGCsdTBO4MGkwNL6YNNSypP4dXmeog6bvhS2vXDfNArJR84pLWAhAJFApkEfWf/Gaok0xN2lPRGeF297VBng==
 
 "@stardust-configs/tsconfig@0.4.0":
   version "0.4.0"
