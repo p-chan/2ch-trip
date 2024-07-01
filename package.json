@@ -37,7 +37,7 @@
     "version:patch": "standard-version -r patch"
   },
   "dependencies": {
-    "encoding-japanese": "2.1.0",
+    "encoding-japanese": "2.2.0",
     "unix-crypt-td-js": "1.1.4"
   },
   "devDependencies": {
