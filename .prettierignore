@@ -1,2 +1,5 @@
+# lock file
+pnpm-lock.yaml
+
 # output
 dist
