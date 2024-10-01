@@ -22,8 +22,8 @@ importers:
         specifier: 0.4.0
         version: 0.4.0(typescript@5.5.3)
       '@types/encoding-japanese':
-        specifier: 2.0.5
-        version: 2.0.5
+        specifier: 2.2.1
+        version: 2.2.1
       '@types/node':
         specifier: 20.14.9
         version: 20.14.9
@@ -292,8 +292,8 @@ packages:
     peerDependencies:
       typescript: '*'
 
-  '@types/encoding-japanese@2.0.5':
-    resolution: {integrity: sha512-LjOB95Ri43cz+zZluJFFqtZGL/Pg80V/cM8ksIVuFV6INh5Ehc82iLbQyQ6heiSW8vmTzcg0hPKU+0+Em3yc1g==}
+  '@types/encoding-japanese@2.2.1':
+    resolution: {integrity: sha512-6jjepuTusvySxMLP7W6usamlbgf0F4sIDvm7EzYePjLHY7zWUv4yz2PLUnu0vuNVtXOTLu2cRdFcDg40J5Owsw==}
 
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
@@ -1504,7 +1504,7 @@ snapshots:
     dependencies:
       typescript: 5.5.3
 
-  '@types/encoding-japanese@2.0.5': {}
+  '@types/encoding-japanese@2.2.1': {}
 
   '@types/estree@1.0.5': {}
 
