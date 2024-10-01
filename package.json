@@ -43,7 +43,7 @@
   "devDependencies": {
     "@stardust-configs/prettier-config": "0.3.0",
     "@stardust-configs/tsconfig": "0.4.0",
-    "@types/encoding-japanese": "2.0.5",
+    "@types/encoding-japanese": "2.2.1",
     "@types/node": "20.14.9",
     "prettier": "3.3.3",
     "rimraf": "5.0.10",
