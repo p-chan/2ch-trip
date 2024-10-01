@@ -17,7 +17,7 @@ importers:
     devDependencies:
       '@stardust-configs/prettier-config':
         specifier: 0.3.0
-        version: 0.3.0(prettier@3.3.2)
+        version: 0.3.0(prettier@3.3.3)
       '@stardust-configs/tsconfig':
         specifier: 0.4.0
         version: 0.4.0(typescript@5.5.3)
@@ -28,8 +28,8 @@ importers:
         specifier: 20.14.9
         version: 20.14.9
       prettier:
-        specifier: 3.3.2
-        version: 3.3.2
+        specifier: 3.3.3
+        version: 3.3.3
       rimraf:
         specifier: 5.0.7
         version: 5.0.7
@@ -988,8 +988,8 @@ packages:
     resolution: {integrity: sha512-D/kj5JNu6oo2EIy+XL/26JEDTlIbB8hw85G8StOE6L74RQAVVP5rej6wxCNqyMbR4RkPfqvezVbPw81Ngd6Kcw==}
     engines: {node: ^10 || ^12 || >=14}
 
-  prettier@3.3.2:
-    resolution: {integrity: sha512-rAVeHYMcv8ATV5d508CFdn+8/pHPpXeIid1DdrPwXnaAdH7cqjVbpJaT5eq4yRAFU/lsbwYwSF/n5iNrdJHPQA==}
+  prettier@3.3.3:
+    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1497,9 +1497,9 @@ snapshots:
 
   '@sinclair/typebox@0.27.8': {}
 
-  '@stardust-configs/prettier-config@0.3.0(prettier@3.3.2)':
+  '@stardust-configs/prettier-config@0.3.0(prettier@3.3.3)':
     dependencies:
-      prettier: 3.3.2
+      prettier: 3.3.3
 
   '@stardust-configs/tsconfig@0.4.0(typescript@5.5.3)':
     dependencies:
@@ -2236,7 +2236,7 @@ snapshots:
       picocolors: 1.0.0
       source-map-js: 1.0.2
 
-  prettier@3.3.2: {}
+  prettier@3.3.3: {}
 
   pretty-format@29.7.0:
     dependencies:
@@ -2508,16 +2508,15 @@ snapshots:
 
   vite@5.0.10(@types/node@20.14.9):
     dependencies:
-      '@types/node': 20.14.9
       esbuild: 0.19.11
       postcss: 8.4.32
       rollup: 4.9.2
     optionalDependencies:
+      '@types/node': 20.14.9
       fsevents: 2.3.3
 
   vitest@1.6.0(@types/node@20.14.9):
     dependencies:
-      '@types/node': 20.14.9
       '@vitest/expect': 1.6.0
       '@vitest/runner': 1.6.0
       '@vitest/snapshot': 1.6.0
@@ -2538,6 +2537,8 @@ snapshots:
       vite: 5.0.10(@types/node@20.14.9)
       vite-node: 1.6.0(@types/node@20.14.9)
       why-is-node-running: 2.2.2
+    optionalDependencies:
+      '@types/node': 20.14.9
     transitivePeerDependencies:
       - less
       - lightningcss
