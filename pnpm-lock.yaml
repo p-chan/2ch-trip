@@ -31,8 +31,8 @@ importers:
         specifier: 3.3.3
         version: 3.3.3
       rimraf:
-        specifier: 5.0.7
-        version: 5.0.7
+        specifier: 5.0.10
+        version: 5.0.10
       standard-version:
         specifier: 9.5.0
         version: 9.5.0
@@ -1049,9 +1049,8 @@ packages:
   resolve@1.20.0:
     resolution: {integrity: sha512-wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A==}
 
-  rimraf@5.0.7:
-    resolution: {integrity: sha512-nV6YcJo5wbLW77m+8KjH8aB/7/rxQy9SZ0HY5shnwULfS+9nmTtVXAJET5NdZmCzA4fPI/Hm1wo/Po/4mopOdg==}
-    engines: {node: '>=14.18'}
+  rimraf@5.0.10:
+    resolution: {integrity: sha512-l0OE8wL34P4nJH/H2ffoaniAokM2qSmrtXHmlpvYr5AVVX8msAyW0l8NVJFDxlSK4u3Uh/f41cQheDVdnYijwQ==}
     hasBin: true
 
   rollup@4.9.2:
@@ -2304,7 +2303,7 @@ snapshots:
       is-core-module: 2.8.0
       path-parse: 1.0.7
 
-  rimraf@5.0.7:
+  rimraf@5.0.10:
     dependencies:
       glob: 10.3.10
 
