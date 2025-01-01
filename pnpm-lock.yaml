@@ -17,7 +17,7 @@ importers:
     devDependencies:
       '@stardust-configs/prettier-config':
         specifier: 0.3.0
-        version: 0.3.0(prettier@3.3.3)
+        version: 0.3.0(prettier@3.4.2)
       '@stardust-configs/tsconfig':
         specifier: 0.4.0
         version: 0.4.0(typescript@5.6.2)
@@ -28,8 +28,8 @@ importers:
         specifier: 20.17.11
         version: 20.17.11
       prettier:
-        specifier: 3.3.3
-        version: 3.3.3
+        specifier: 3.4.2
+        version: 3.4.2
       rimraf:
         specifier: 6.0.1
         version: 6.0.1
@@ -928,8 +928,8 @@ packages:
     resolution: {integrity: sha512-D/kj5JNu6oo2EIy+XL/26JEDTlIbB8hw85G8StOE6L74RQAVVP5rej6wxCNqyMbR4RkPfqvezVbPw81Ngd6Kcw==}
     engines: {node: ^10 || ^12 || >=14}
 
-  prettier@3.3.3:
-    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
+  prettier@3.4.2:
+    resolution: {integrity: sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1410,9 +1410,9 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.9.2':
     optional: true
 
-  '@stardust-configs/prettier-config@0.3.0(prettier@3.3.3)':
+  '@stardust-configs/prettier-config@0.3.0(prettier@3.4.2)':
     dependencies:
-      prettier: 3.3.3
+      prettier: 3.4.2
 
   '@stardust-configs/tsconfig@0.4.0(typescript@5.6.2)':
     dependencies:
@@ -2089,7 +2089,7 @@ snapshots:
       picocolors: 1.0.0
       source-map-js: 1.0.2
 
-  prettier@3.3.3: {}
+  prettier@3.4.2: {}
 
   process-nextick-args@2.0.1: {}
 
