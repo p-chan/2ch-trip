@@ -25,8 +25,8 @@ importers:
         specifier: 2.2.1
         version: 2.2.1
       '@types/node':
-        specifier: 20.19.27
-        version: 20.19.27
+        specifier: 20.19.37
+        version: 20.19.37
       prettier:
         specifier: 3.7.4
         version: 3.7.4
@@ -41,7 +41,7 @@ importers:
         version: 5.9.3
       vitest:
         specifier: 2.1.9
-        version: 2.1.9(@types/node@20.19.27)
+        version: 2.1.9(@types/node@20.19.37)
 
 packages:
 
@@ -294,8 +294,8 @@ packages:
   '@types/minimist@1.2.2':
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
 
-  '@types/node@20.19.27':
-    resolution: {integrity: sha512-N2clP5pJhB2YnZJ3PIHFk5RkygRX5WO/5f0WC08tp0wd+sv0rsJk3MqWn3CbNmT2J505a5336jaQj4ph1AdMug==}
+  '@types/node@20.19.37':
+    resolution: {integrity: sha512-8kzdPJ3FsNsVIurqBs7oodNnCEVbni9yUEkaHbgptDACOPW04jimGagZ51E6+lXUwJjgnBw+hyko/lkFWCldqw==}
 
   '@types/normalize-package-data@2.4.1':
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -608,6 +608,7 @@ packages:
   git-raw-commits@2.0.10:
     resolution: {integrity: sha512-sHhX5lsbG9SOO6yXdlwgEMQ/ljIn7qMpAbJZCGfXX2fq5T8M5SrDnpYk9/4HswTildcIqatsWa91vty6VhWSaQ==}
     engines: {node: '>=10'}
+    deprecated: This package is no longer maintained. For the JavaScript API, please use @conventional-changelog/git-client instead.
     hasBin: true
 
   git-remote-origin-url@2.0.0:
@@ -617,6 +618,7 @@ packages:
   git-semver-tags@4.1.1:
     resolution: {integrity: sha512-OWyMt5zBe7xFs8vglMmhM9lRQzCWL3WjHtxNNfJTMngGym7pC1kh8sP6jevfydJ6LP3ZvGxfb6ABYgPUM0mtsA==}
     engines: {node: '>=10'}
+    deprecated: This package is no longer maintained. For the JavaScript API, please use @conventional-changelog/git-client instead.
     hasBin: true
 
   gitconfiglocal@1.0.0:
@@ -1359,7 +1361,7 @@ snapshots:
 
   '@types/minimist@1.2.2': {}
 
-  '@types/node@20.19.27':
+  '@types/node@20.19.37':
     dependencies:
       undici-types: 6.21.0
 
@@ -1372,13 +1374,13 @@ snapshots:
       chai: 5.1.2
       tinyrainbow: 1.2.0
 
-  '@vitest/mocker@2.1.9(vite@5.0.10(@types/node@20.19.27))':
+  '@vitest/mocker@2.1.9(vite@5.0.10(@types/node@20.19.37))':
     dependencies:
       '@vitest/spy': 2.1.9
       estree-walker: 3.0.3
       magic-string: 0.30.12
     optionalDependencies:
-      vite: 5.0.10(@types/node@20.19.27)
+      vite: 5.0.10(@types/node@20.19.37)
 
   '@vitest/pretty-format@2.1.9':
     dependencies:
@@ -2212,13 +2214,13 @@ snapshots:
       spdx-correct: 3.1.1
       spdx-expression-parse: 3.0.1
 
-  vite-node@2.1.9(@types/node@20.19.27):
+  vite-node@2.1.9(@types/node@20.19.37):
     dependencies:
       cac: 6.7.14
       debug: 4.3.7
       es-module-lexer: 1.6.0
       pathe: 1.1.2
-      vite: 5.0.10(@types/node@20.19.27)
+      vite: 5.0.10(@types/node@20.19.37)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -2229,19 +2231,19 @@ snapshots:
       - supports-color
       - terser
 
-  vite@5.0.10(@types/node@20.19.27):
+  vite@5.0.10(@types/node@20.19.37):
     dependencies:
       esbuild: 0.19.11
       postcss: 8.4.32
       rollup: 4.9.2
     optionalDependencies:
-      '@types/node': 20.19.27
+      '@types/node': 20.19.37
       fsevents: 2.3.3
 
-  vitest@2.1.9(@types/node@20.19.27):
+  vitest@2.1.9(@types/node@20.19.37):
     dependencies:
       '@vitest/expect': 2.1.9
-      '@vitest/mocker': 2.1.9(vite@5.0.10(@types/node@20.19.27))
+      '@vitest/mocker': 2.1.9(vite@5.0.10(@types/node@20.19.37))
       '@vitest/pretty-format': 2.1.9
       '@vitest/runner': 2.1.9
       '@vitest/snapshot': 2.1.9
@@ -2257,11 +2259,11 @@ snapshots:
       tinyexec: 0.3.1
       tinypool: 1.0.1
       tinyrainbow: 1.2.0
-      vite: 5.0.10(@types/node@20.19.27)
-      vite-node: 2.1.9(@types/node@20.19.27)
+      vite: 5.0.10(@types/node@20.19.37)
+      vite-node: 2.1.9(@types/node@20.19.37)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 20.19.27
+      '@types/node': 20.19.37
     transitivePeerDependencies:
       - less
       - lightningcss
