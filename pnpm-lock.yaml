@@ -20,7 +20,7 @@ importers:
         version: 0.3.0(prettier@3.8.1)
       '@stardust-configs/tsconfig':
         specifier: 0.4.0
-        version: 0.4.0(typescript@5.9.3)
+        version: 0.4.0(typescript@6.0.2)
       '@types/encoding-japanese':
         specifier: 2.2.1
         version: 2.2.1
@@ -37,8 +37,8 @@ importers:
         specifier: 9.5.0
         version: 9.5.0
       typescript:
-        specifier: 5.9.3
-        version: 5.9.3
+        specifier: 6.0.2
+        version: 6.0.2
       vitest:
         specifier: 2.1.9
         version: 2.1.9(@types/node@20.19.37)
@@ -1100,8 +1100,8 @@ packages:
   typedarray@0.0.6:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
 
-  typescript@5.9.3:
-    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
+  typescript@6.0.2:
+    resolution: {integrity: sha512-bGdAIrZ0wiGDo5l8c++HWtbaNCWTS4UTv7RaTH/ThVIgjkveJt83m74bBHMJkuCbslY8ixgLBVZJIOiQlQTjfQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -1345,9 +1345,9 @@ snapshots:
     dependencies:
       prettier: 3.8.1
 
-  '@stardust-configs/tsconfig@0.4.0(typescript@5.9.3)':
+  '@stardust-configs/tsconfig@0.4.0(typescript@6.0.2)':
     dependencies:
-      typescript: 5.9.3
+      typescript: 6.0.2
 
   '@types/encoding-japanese@2.2.1': {}
 
@@ -2198,7 +2198,7 @@ snapshots:
 
   typedarray@0.0.6: {}
 
-  typescript@5.9.3: {}
+  typescript@6.0.2: {}
 
   uglify-js@3.14.3:
     optional: true
