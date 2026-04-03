@@ -44,7 +44,7 @@
     "@stardust-configs/prettier-config": "0.3.0",
     "@stardust-configs/tsconfig": "0.4.0",
     "@types/encoding-japanese": "2.2.1",
-    "@types/node": "20.19.37",
+    "@types/node": "24.12.2",
     "prettier": "3.8.1",
     "rimraf": "6.1.3",
     "standard-version": "9.5.0",
