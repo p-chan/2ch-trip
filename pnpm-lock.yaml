@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       encoding-japanese:
-        specifier: 2.2.0
-        version: 2.2.0
+        specifier: 2.4.0
+        version: 2.4.0
       unix-crypt-td-js:
         specifier: 1.1.4
         version: 1.1.4
@@ -22,8 +22,8 @@ importers:
         specifier: 0.4.0
         version: 0.4.0(typescript@5.9.3)
       '@types/encoding-japanese':
-        specifier: 2.2.1
-        version: 2.2.1
+        specifier: 2.4.0
+        version: 2.4.0
       '@types/node':
         specifier: 20.19.43
         version: 20.19.43
@@ -277,8 +277,9 @@ packages:
     peerDependencies:
       typescript: '*'
 
-  '@types/encoding-japanese@2.2.1':
-    resolution: {integrity: sha512-6jjepuTusvySxMLP7W6usamlbgf0F4sIDvm7EzYePjLHY7zWUv4yz2PLUnu0vuNVtXOTLu2cRdFcDg40J5Owsw==}
+  '@types/encoding-japanese@2.4.0':
+    resolution: {integrity: sha512-3+DRbiNkPVZ9qcKmRDHwsPl/hA36EBj3r4gGHm0wA1bcVE4/c8X1sHEl0yJ6Uf+1NKwumRbdQI+CPYVv+lOHZA==}
+    deprecated: This is a stub types definition. encoding-japanese provides its own type definitions, so you do not need this installed.
 
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
@@ -546,9 +547,9 @@ packages:
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
 
-  encoding-japanese@2.2.0:
-    resolution: {integrity: sha512-EuJWwlHPZ1LbADuKTClvHtwbaFn4rOD+dRAbWysqEOXRc2Uui0hJInNJrsdH0c+OhJA4nrCBdSkW4DD5YxAo6A==}
-    engines: {node: '>=8.10.0'}
+  encoding-japanese@2.4.0:
+    resolution: {integrity: sha512-PE0KjlsDy9JSsoU4C2Q8NXb1kC4c+bZRac9ZvHXUE4q1Ht63gScKMdEy9jst9+Fi3M4eDkqzkEhBZvix4blP2A==}
+    engines: {node: '>=18.0.0'}
 
   error-ex@1.3.2:
     resolution: {integrity: sha512-7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==}
@@ -1357,7 +1358,9 @@ snapshots:
     dependencies:
       typescript: 5.9.3
 
-  '@types/encoding-japanese@2.2.1': {}
+  '@types/encoding-japanese@2.4.0':
+    dependencies:
+      encoding-japanese: 2.4.0
 
   '@types/estree@1.0.5': {}
 
@@ -1651,7 +1654,7 @@ snapshots:
 
   emoji-regex@8.0.0: {}
 
-  encoding-japanese@2.2.0: {}
+  encoding-japanese@2.4.0: {}
 
   error-ex@1.3.2:
     dependencies:
